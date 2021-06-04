@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "OpenSans Regular";
+	src: url('fonts/OpenSans-Regular.ttf');	
+}
+
+@font-face {
+	font-family: "OpenSans Bold";
+	src: url('fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: "OpenSans ExtraBold";
+	src: url('fonts/OpenSans-ExtraBold.ttf');
+}
+
+html, body {
+	width: 100%;
+	margin: 0px;
+	background-color: #F6F2F2;
+}
+
+.menu {
+	height: 89px;
+	width: 85%;
+	margin: 29px auto 0px auto;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.menu_item {
+	padding: 35px 10px;
+	color: #E0E0E0;
+	text-decoration: none;
+}
+
+.menu_item:hover {
+	background-color: #ff3f40;
+}
+
+main {
+	width: 85%;
+	margin: 100px auto 0px;
+}
+
+.intro {
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.intro-wrapper {
+	width: 47%;
+}
+
+.intro-wrapper > h1 {
+	font-family: "OpenSans ExtraBold", Sans-serif;
+	font-size: 60px;
+	margin: 0px;
+}
+
+.intro-wrapper > p {
+	font-family: "OpenSans Regular", Sans-serif;
+}
+
+.buttom {
+	height: 55px;
+	width: 227px;
+	background-color: #FF2D2D;
+	
+}
+
+.buttom > a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-family: "OpenSans Bold", Sans-serif;
+	padding: 16px 66px;
+}
+
+.image {
+	box-shadow: 0 0 70px -20px; 
+}
